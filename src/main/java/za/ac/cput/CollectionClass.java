@@ -1,10 +1,11 @@
 package za.ac.cput;
 
-public class Collection {
+public class CollectionClass {
 
     public boolean add() {
         return false;
     }
+
 
 
 

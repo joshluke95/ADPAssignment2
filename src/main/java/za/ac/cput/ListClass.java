@@ -1,45 +1,11 @@
 package za.ac.cput;
 
-import java.util.*;
 import java.util.Collection;
+import java.util.Iterator;
 
 
-public class EmployeeList implements Collection {
+public class ListClass implements Collection {
 
-    private String id, firstName, lastName;
-    private int age;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
 
     @Override
     public int size() {
@@ -61,8 +27,14 @@ public class EmployeeList implements Collection {
         return null;
     }
 
+
     @Override
     public Object[] toArray() {
+        return new Object[0];
+    }
+
+    @Override
+    public Object[] toArray(Object[] a) {
         return new Object[0];
     }
 
@@ -101,8 +73,4 @@ public class EmployeeList implements Collection {
         return false;
     }
 
-    @Override
-    public Object[] toArray(Object[] a) {
-        return new Object[0];
-    }
 }
