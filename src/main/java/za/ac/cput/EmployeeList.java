@@ -2,7 +2,8 @@ package za.ac.cput;
 
 import java.util.*;
 
-public class EmployeeList {
+
+public class EmployeeList{
 
     private String id, firstName, lastName;
     private int age;
@@ -38,6 +39,5 @@ public class EmployeeList {
     public void setAge(int age) {
         this.age = age;
     }
-
 
 }

@@ -1,6 +1,5 @@
 package za.ac.cput;
 
-import java.util.*;
 
 public class EmployeeMap {
 
