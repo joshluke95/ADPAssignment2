@@ -13,7 +13,7 @@ class ListClassTest {
     @Test
     void add() {
 
-        List<String> car = new ArrayList<>();
+        List<String> car = new ArrayList();
 
         car.add("Toyota");
         car.add("Nissan");
@@ -25,7 +25,7 @@ class ListClassTest {
 
     @Test
     void remove() {
-        List<String> car = new ArrayList<>();
+        List<String> car = new ArrayList();
 
         car.add("Toyota");
         car.add("Nissan");
@@ -40,7 +40,7 @@ class ListClassTest {
 
     @Test
     void find() {
-        List<String> car = new ArrayList<>();
+        List<String> car = new ArrayList();
 
         car.add("Toyota");
         car.add("Nissan");

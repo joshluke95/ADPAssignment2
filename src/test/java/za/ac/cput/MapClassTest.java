@@ -13,7 +13,7 @@ class MapClassTest {
 
     @Test
     void put() {
-        Map<Integer, String> car = new HashMap<>();
+        Map<Integer, String> car = new HashMap();
         car.put(1, "Toyota");
         car.put(2, "Nissan");
         car.put(3, "BMW");
@@ -23,7 +23,7 @@ class MapClassTest {
 
     @Test
     void find() {
-        Map<Integer, String> car = new HashMap<>();
+        Map<Integer, String> car = new HashMap();
         car.put(1, "Toyota");
         car.put(2, "Nissan");
         car.put(3, "BMW");
@@ -36,7 +36,7 @@ class MapClassTest {
 
     @Test
     void remove() {
-        Map<Integer, String> car = new HashMap<>();
+        Map<Integer, String> car = new HashMap();
         car.put(1, "Toyota");
         car.put(2, "Nissan");
         car.put(3, "BMW");
