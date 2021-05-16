@@ -9,5 +9,7 @@ public interface Collection {
 
     boolean find(Object o);
 
+    boolean put (Object o);
+
 
 }

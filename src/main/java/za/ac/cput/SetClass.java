@@ -7,8 +7,6 @@ public class SetClass implements Collection{
         return false;
     }
 
-
-
     @Override
     public boolean remove(Object o) {
         return false;
@@ -16,6 +14,11 @@ public class SetClass implements Collection{
 
     @Override
     public boolean find(Object o) {
+        return false;
+    }
+
+    @Override
+    public boolean put(Object o) {
         return false;
     }
 }

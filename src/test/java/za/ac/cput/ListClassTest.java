@@ -31,7 +31,6 @@ class ListClassTest {
         String removedElement = car.remove(2);
         System.out.println("Removed Element: " + removedElement);
 
-
     }
 
     @Test
@@ -47,6 +46,5 @@ class ListClassTest {
         String find = car.get(1);
         System.out.println("Element Found: " + find);
     }
-
 
 }

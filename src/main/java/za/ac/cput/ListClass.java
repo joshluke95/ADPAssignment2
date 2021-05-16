@@ -19,4 +19,9 @@ public class ListClass implements Collection {
     public boolean find(Object o) {
         return false;
     }
+
+    @Override
+    public boolean put(Object o) {
+        return false;
+    }
 }
