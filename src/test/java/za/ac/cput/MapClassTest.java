@@ -1,7 +1,11 @@
+/**
+ * ADP Assignment 2
+ * @author 214234169
+ */
+
 package za.ac.cput;
 
 import org.junit.jupiter.api.Test;
-
 import java.util.*;
 
 
@@ -44,8 +48,5 @@ class MapClassTest {
 
         System.out.println("Updated Map: " + car);
     }
-
-
-
 
 }

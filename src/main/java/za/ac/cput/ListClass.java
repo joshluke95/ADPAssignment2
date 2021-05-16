@@ -1,9 +1,11 @@
+/**
+ * ADP Assignment 2
+ * @author 214234169
+ */
+
 package za.ac.cput;
 
-
-
 public class ListClass implements Collection {
-
 
     @Override
     public boolean add(Object o) {

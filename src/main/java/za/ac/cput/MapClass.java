@@ -1,7 +1,11 @@
+/**
+ * ADP Assignment 2
+ * @author 214234169
+ */
+
 package za.ac.cput;
 
 public class MapClass implements Collection{
-
 
     @Override
     public boolean add(Object o) {

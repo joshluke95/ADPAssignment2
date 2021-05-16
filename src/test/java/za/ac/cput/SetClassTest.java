@@ -1,3 +1,8 @@
+/**
+ * ADP Assignment 2
+ * @author 214234169
+ */
+
 package za.ac.cput;
 
 import org.junit.jupiter.api.Test;
@@ -8,14 +13,13 @@ class SetClassTest {
     @Test
     void add() {
 
-        Set<String> car = new HashSet();
+        HashSet car = new HashSet();
 
         car.add("Toyota");
         car.add("Nissan");
         car.add("BMW");
 
         System.out.println("Added Elements " + car);
-
 
     }
 
@@ -54,6 +58,5 @@ class SetClassTest {
             System.out.println(iterate.next());
             System.out.println("");
         }
-
     }
 }
